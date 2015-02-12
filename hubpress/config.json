@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "jason-s-davis",
-    "repositoryName": "jason-s-davis.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"jason-s-davis","repositoryName":"jason-s-davis.github.io","branch":"master"},"site":{"title":"Jason Davis","url":"http://jason-s-davis.github.io"},"socialnetwork":{},"theme":{"name":"Casper","url":"http://jason-s-davis.github.io/themes/Casper"}}
