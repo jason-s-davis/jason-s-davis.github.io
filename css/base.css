@@ -1,0 +1,51 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.pagetitle {
+    margin-top: 40px;
+    font-family: 'Lobster', cursive;   
+}
+
+
+a { 
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.phoneblock li a {
+    color: rgb(0,0,0);
+}
+
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+    .phoneblock {
+        width: 90%;
+    }
+    .phoneblock h3 {
+        white-space: nowrap;
+    }
+}
+
+
+@media print {
+    .small-row hr {
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    h1, h2, h3, h4, h5, h6, li {
+        margin-bottom: 0rem;
+    }
+
+    .four p {
+        margin-bottom: 1rem;
+    }
+
+}
+
+@page {
+    margin: 0.5cm;
+}
