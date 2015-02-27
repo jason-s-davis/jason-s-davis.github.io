@@ -25,6 +25,10 @@ a {
     color: rgb(0,0,0);
 }
 
+.pullup a:hover {
+    color: rgba(0,0,0,0.7);
+}
+
 .pullup img {
     position: relative;
     top: 12px;
