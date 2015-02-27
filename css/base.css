@@ -35,6 +35,14 @@ a {
     right: -10px;
 }
 
+.vert-outer {
+    display: table;
+}
+
+.vert-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
