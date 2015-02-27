@@ -37,6 +37,7 @@ a {
 
 .vert-outer {
     display: table;
+    /*height: 5em;*/
 }
 
 .vert-inner {
