@@ -17,7 +17,9 @@ a {
     color: rgb(0,0,0);
 }
 
-
+.phoneblock a :first-of-type {
+    border-bottom: 1px solid #000;
+}
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
