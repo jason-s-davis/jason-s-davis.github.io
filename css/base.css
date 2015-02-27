@@ -21,8 +21,10 @@ a {
     border-bottom: 1px solid #000;
 }
 
-.pullup {
-    
+.pullup img {
+    position: relative;
+    top: 12px;
+    right: -10px;
 }
 
 
