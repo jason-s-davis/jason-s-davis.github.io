@@ -21,11 +21,11 @@ a {
     border-bottom: 1px solid #000;
 }
 
-.pullup a {
+.pullup {
     color: rgb(0,0,0);
 }
 
-.pullup a:hover {
+.pullup:hover {
     color: rgba(0,0,0,0.7);
 }
 
