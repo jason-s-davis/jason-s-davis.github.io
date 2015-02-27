@@ -21,6 +21,10 @@ a {
     border-bottom: 1px solid #000;
 }
 
+.pullup a {
+    color: rgb(0,0,0);
+}
+
 .pullup img {
     position: relative;
     top: 12px;
