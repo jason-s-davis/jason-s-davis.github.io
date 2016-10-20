@@ -7,7 +7,6 @@
     font-family: 'Lobster', cursive;   
 }
 
-
 a { 
     text-decoration: none;
     font-weight: bolder;
@@ -37,7 +36,6 @@ a {
 
 .vert-outer {
     display: table;
-    /*height: 5em;*/
 }
 
 .vert-inner {
@@ -55,7 +53,6 @@ a {
     }
 }
 
-
 @media print {
     .small-row hr {
         margin-top: 1.5rem;
@@ -69,7 +66,6 @@ a {
     .four p {
         margin-bottom: 1rem;
     }
-
 }
 
 @page {

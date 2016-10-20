@@ -1,0 +1,27 @@
+{
+  "name": "jsondavis",
+  "version": "1.0.0",
+  "description": "home page for not that jason",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "cat css/*.css > css/",
+    "css:build": "node-sass --output-style compressed  css/styles.scss > css/styles.min.css",
+    "css:clean": "rm css/styles.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsondavis/jsondavis.github.io.git"
+  },
+  "author": "Jason Davis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsondavis/jsondavis.github.io/issues"
+  },
+  "homepage": "https://github.com/jsondavis/jsondavis.github.io#readme",
+  "dependencies": {
+    "autoprefixer": "^6.5.1",
+    "node-sass": "^3.10.1",
+    "uglifyjs": "^2.4.10"
+  }
+}
